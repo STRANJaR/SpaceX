@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lexend:wght@700&family=Nunito+Sans:wght@900&family=Poppins:wght@300&family=Prosto+One&family=Roboto&family=Roboto+Mono&family=Titillium+Web:wght@300&family=Ubuntu:wght@300;400&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+  color: white;
+}
+
+/* ------------SpaceX DOWNLOADED FONT ----------- */
+@font-face {
+  font-family: space;
+  src: url(/spaceX.ttf);
+}
+
+/* ---------------STARLINK MISSION SECTION ------------ */
+.container {
+  background: url(/img/img1.jpg);
+  font-family: space;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  height: 700px;
+}
+.navbar {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+}
+.left_nav {
+  display: flex;
+  align-items: center;
+}
+#logo_img img {
+  height: 175px;
+  margin-left: 30px;
+  filter: invert(100%);
+}
+.middle_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  /* width: 70%; */
+  /* margin-left: 20%; */
+}
+.items {
+  /* font-family: space; */
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 5px;
+  margin: 10px 5px 0px 5px;
+}
+.items:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.right_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  float: right;
+  list-style: none;
+  margin-top: 14px;
+  margin-left: 80px;
+}
+.right_nav li:hover {
+  cursor: pointer;
+}
+#hamburger {
+  margin-left: 35px;
+}
+#hamburger img {
+  margin-top: 6px;
+  height: 22px;
+  filter: invert();
+}
+.starlink_mission {
+  margin: 20% 0% 0% 5%;
+  font-family: "Roboto", sans-serif;
+}
+.starlink_mission p {
+  font-size: 1.2rem;
+}
+.starlink_mission h1 {
+  font-size: 2.7rem;
+  margin-top: -15px;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding: 20px;
+  width: 13%;
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.upcoming_launch {
+  background: url(/img/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  height: 620px;
+}
+.launch {
+  font-family: "Roboto", sans-serif;
+  padding: 25% 0% 0% 5%;
+}
+.launch h1 {
+  font-size: 2.6rem;
+  margin-top: -15px;
+}
+
+.recent_launch {
+  background: url(/img/img3.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  height: 620px;
+}
+
+.exploration {
+  background: url(/img/img4.webp);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  height: 620px;
+}
+
+.exploration_launch {
+  font-family: "Roboto", sans-serif;
+  padding: 15% 0% 0% 5%;
+}
+.exploration_launch h1 {
+  width: 35%;
+  font-weight: bolder;
+}
+
+.starship_update {
+  background: url(/img/img5.webp);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  height: 620px;
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot li {
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: 900;
+  list-style: none;
+  margin: 0px 17px 0px 17px;
+}
+#copyright {
+  margin-right: 20px;
+  list-style: none;
+  font-weight: 100;
+  font-size: 0.8rem;
+  color: gray;
+}
